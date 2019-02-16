@@ -1,0 +1,59 @@
+
+<html><head></head><body><h1 id="cornerstone-tools-next">cornerstone-tools@next</h1>
+<hr />
+<p><a href="https://circleci.com/gh/cornerstonejs/cornerstoneTools/tree/vNext"><img src="https://circleci.com/gh/cornerstonejs/cornerstoneTools/tree/vNext.svg?style=svg" alt="CircleCI" style="max-width: 100%;"></a> <a href="https://coveralls.io/github/cornerstonejs/cornerstoneTools?branch=vNext"><img src="https://coveralls.io/repos/github/cornerstonejs/cornerstoneTools/badge.svg?branch=vNext" alt="Coverage Status" style="max-width: 100%;"></a></p>
+<p>The <code>cornerstone-tools</code> vNext branch is a preview branch for upcoming major API changes. When new changes are merged, if all tests are passing, a new version is cut and published to NPM under the <code>next</code> tag. When enough progress has been made, a more formal deprecation and adoption strategy will be announced as this API replaces v2.</p>
+<p>You can track <a href="https://github.com/cornerstonejs/cornerstoneTools/projects/1">this version's progress here</a>. Any/all help in determining our API target, completing issues, finding bugs, etc. is appreciated.</p>
+<h2 id="getting-started">Getting Started</h2>
+<hr />
+<h3 id="install">Install</h3>
+<p><strong>Via NPM:</strong> (preferred)</p>
+<p><em>Latest stable release:</em></p>
+<ul>
+<li><code>npm install --save cornerstone-tools</code></li>
+</ul>
+<p><em>Pre-release, unstable, mostly for contributors:</em></p>
+<ul>
+<li><code>npm install --save cornerstone-tools@next</code></li>
+</ul>
+<h3 id="usage">Usage</h3>
+<p>See the <a href="https://rawgithub.com/cornerstonejs/cornerstoneTools/master/examples/index.html">live examples</a> and <a href="https://github.com/cornerstonejs/cornerstoneTools/wiki">wiki</a> for documentation (Soon to be replaced by <a href="http://tools.cornerstonejs.org/">tools.cornerstonejs.org</a>) on how to use this library</p>
+<p><strong>A common setup when using modules:</strong></p>
+<pre><code class="javascript">// Load NPM packages
+import Hammer from "hammerjs"; // npm install --save hammerjs
+import * as cornerstone from "cornerstone-core"; // npm install --save cornerstone-core
+import * as cornerstoneTools from "cornerstone-tools";
+
+// Specify external dependencies
+cornerstoneTools.external.cornerstone = cornerstone;
+cornerstoneTools.external.Hammer = Hammer;</code></pre>
+<h2 id="contributing">Contributing</h2>
+<hr />
+<p><strong>How To Contribute:</strong></p>
+<ol>
+<li>Fork this repository</li>
+<li>Clone the forked repository</li>
+<li>Before committing code, create a branch-per-feature, or branch-per-bug</li>
+<li>Create pull requests against <code>cornerstonejs/cornerstoneTools/master</code></li>
+</ol>
+<h2 id="build-system">Build System</h2>
+<hr />
+<p>This project uses webpack to build the software.</p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li><a href="http://nodejs.org">NodeJs</a>.</li>
+</ul>
+<p><strong>Common Tasks:</strong></p>
+<p>Update dependencies (after each pull):</p>
+<blockquote>
+<p>npm install</p>
+</blockquote>
+<p>Running the build:</p>
+<blockquote>
+<p>npm start</p>
+</blockquote>
+<p>Automatically running the build and unit tests after each source change:</p>
+<blockquote>
+<p>npm run watch</p>
+</blockquote>
+</body></html>

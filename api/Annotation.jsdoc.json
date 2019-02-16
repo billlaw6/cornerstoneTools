@@ -1,0 +1,1413 @@
+[
+  {
+    "comment": "/**\n * This function is a callback to be overwriten in order to provide the wante feature\n * modal, overlay, popup or any kind of interaction with the user to be able to update\n * the text marker label.\n *\n * @param  {} data\n * @param  {} eventData\n * @param  {} doneChangingTextCallback\n */",
+    "meta": {
+      "range": [
+        5832,
+        5972
+      ],
+      "filename": "TextMarkerTool.js",
+      "lineno": 224,
+      "columnno": 6,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100015830",
+        "name": "changeTextCallback",
+        "type": "ArrowFunctionExpression"
+      }
+    },
+    "description": "This function is a callback to be overwriten in order to provide the wante feature\nmodal, overlay, popup or any kind of interaction with the user to be able to update\nthe text marker label.",
+    "params": [
+      {
+        "name": "data"
+      },
+      {
+        "name": "eventData"
+      },
+      {
+        "name": "doneChangingTextCallback"
+      }
+    ],
+    "name": "changeTextCallback",
+    "longname": "changeTextCallback",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "changeTextCallback",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#changeTextCallback"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        2595,
+        3313
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 76,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100005754",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1443,
+        2469
+      ],
+      "filename": "RectangleRoiTool.js",
+      "lineno": 47,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100013344",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1348,
+        1954
+      ],
+      "filename": "ProbeTool.js",
+      "lineno": 42,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100012251",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} evt\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        2080,
+        2871
+      ],
+      "filename": "ArrowAnnotateTool.js",
+      "lineno": 59,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100001222",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "evt"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1285,
+        2286
+      ],
+      "filename": "LengthTool.js",
+      "lineno": 44,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100010919",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1577,
+        2603
+      ],
+      "filename": "EllipticalRoiTool.js",
+      "lineno": 51,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100003721",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1775,
+        2740
+      ],
+      "filename": "AngleTool.js",
+      "lineno": 56,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100000115",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Create the measurement data for this tool with the end handle activated\n   *\n   * @param {*} eventData\n   * @returns {Object}\n   */",
+    "meta": {
+      "range": [
+        1799,
+        3083
+      ],
+      "filename": "CobbAngleTool.js",
+      "lineno": 56,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100002461",
+        "name": "createNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "eventData"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Create the measurement data for this tool with the end handle activated",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "*"
+          ]
+        },
+        "name": "eventData"
+      }
+    ],
+    "returns": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        }
+      }
+    ],
+    "name": "createNewMeasurement",
+    "longname": "createNewMeasurement",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "createNewMeasurement",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#createNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Event handler for MOUSE_DOWN during drawing event loop.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        21462,
+        22191
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 699,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007604",
+        "name": "_drawingMouseDownCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for MOUSE_DOWN during drawing event loop.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "_drawingMouseDownCallback",
+    "longname": "event:_drawingMouseDownCallback",
+    "scope": "global",
+    "$longname": "event:_drawingMouseDownCallback",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:_drawingMouseDownCallback"
+  },
+  {
+    "comment": "/**\n   * Event handler for MOUSE_DRAG during drawing event loop.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        19817,
+        20474
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 637,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007399",
+        "name": "_drawingMouseDragCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for MOUSE_DRAG during drawing event loop.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "_drawingMouseDragCallback",
+    "longname": "event:_drawingMouseDragCallback",
+    "scope": "global",
+    "$longname": "event:_drawingMouseDragCallback",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:_drawingMouseDragCallback"
+  },
+  {
+    "comment": "/**\n   * Event handler for MOUSE_MOVE during drawing event loop.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        18619,
+        19685
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 598,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007254",
+        "name": "_drawingMouseMoveCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for MOUSE_MOVE during drawing event loop.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "_drawingMouseMoveCallback",
+    "longname": "event:_drawingMouseMoveCallback",
+    "scope": "global",
+    "$longname": "event:_drawingMouseMoveCallback",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:_drawingMouseMoveCallback"
+  },
+  {
+    "comment": "/**\n   * Event handler for MOUSE_UP during drawing event loop.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        20604,
+        21330
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 664,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007493",
+        "name": "_drawingMouseUpCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for MOUSE_UP during drawing event loop.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "_drawingMouseUpCallback",
+    "longname": "event:_drawingMouseUpCallback",
+    "scope": "global",
+    "$longname": "event:_drawingMouseUpCallback",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:_drawingMouseUpCallback"
+  },
+  {
+    "comment": "/**\n   * Event handler for MOUSE_DRAG during handle drag event loop.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        22327,
+        23382
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 730,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007713",
+        "name": "_editMouseDragCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for MOUSE_DRAG during handle drag event loop.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "_editMouseDragCallback",
+    "longname": "event:_editMouseDragCallback",
+    "scope": "global",
+    "$longname": "event:_editMouseDragCallback",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:_editMouseDragCallback"
+  },
+  {
+    "comment": "/**\n   * Event handler for called by the mouseDownActivate event, if tool is active and\n   * the event is not caught by mouseDownCallback.\n   *\n   * @event\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        16576,
+        16818
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 513,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007041",
+        "name": "addNewMeasurement",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt",
+          "interactionType"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Event handler for called by the mouseDownActivate event, if tool is active and\nthe event is not caught by mouseDownCallback.",
+    "kind": "event",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "addNewMeasurement",
+    "longname": "event:addNewMeasurement",
+    "scope": "global",
+    "$longname": "event:addNewMeasurement",
+    "$kind": "event",
+    "$docmaLink": "?api=Annotation#event:addNewMeasurement"
+  },
+  {
+    "comment": "/**\n   * Custom callback for when a handle is selected.\n   *\n   * @param  {Object} evt\n   * @param  {Object} handle The selected handle.\n   */",
+    "meta": {
+      "range": [
+        17610,
+        18487
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 556,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007135",
+        "name": "handleSelectedCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt",
+          "handle",
+          "data"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Custom callback for when a handle is selected.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "name": "evt"
+      },
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The selected handle.",
+        "name": "handle"
+      }
+    ],
+    "name": "handleSelectedCallback",
+    "longname": "handleSelectedCallback",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "handleSelectedCallback",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#handleSelectedCallback"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        959,
+        2159
+      ],
+      "filename": "BidirectionalTool.js",
+      "lineno": 24,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100002205",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        1275,
+        1628
+      ],
+      "filename": "AngleTool.js",
+      "lineno": 37,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100000073",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        718,
+        1303
+      ],
+      "filename": "TextMarkerTool.js",
+      "lineno": 21,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100015218",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        1503,
+        2478
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 44,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100005626",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        1109,
+        1430
+      ],
+      "filename": "EllipticalRoiTool.js",
+      "lineno": 33,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100003685",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        976,
+        1296
+      ],
+      "filename": "RectangleRoiTool.js",
+      "lineno": 29,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100013308",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        1303,
+        1652
+      ],
+      "filename": "CobbAngleTool.js",
+      "lineno": 37,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100002419",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        1405,
+        1939
+      ],
+      "filename": "ArrowAnnotateTool.js",
+      "lineno": 33,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100001168",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        888,
+        1201
+      ],
+      "filename": "ProbeTool.js",
+      "lineno": 24,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100012215",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        824,
+        1138
+      ],
+      "filename": "LengthTool.js",
+      "lineno": 26,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100010883",
+        "name": "module.exports",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "configuration"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "undocumented": true,
+    "name": "exports",
+    "longname": "module.exports#module.exports",
+    "kind": "class",
+    "memberof": "module.exports#module",
+    "scope": "static",
+    "params": [],
+    "$longname": "module.exports#module.exports",
+    "$kind": "constructor",
+    "$docmaLink": "?api=Annotation#module.exports#module.exports"
+  },
+  {
+    "comment": "/**\n   * Active mouse down callback that takes priority if the user is attempting\n   * to insert or delete a handle with ctrl + click.\n   *\n   * @param {Object} evt - The event.\n   */",
+    "meta": {
+      "range": [
+        17008,
+        17461
+      ],
+      "filename": "FreehandMouseTool.js",
+      "lineno": 531,
+      "columnno": 2,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {
+        "id": "astnode100007081",
+        "name": "preMouseDownCallback",
+        "type": "MethodDefinition",
+        "paramnames": [
+          "evt"
+        ]
+      },
+      "vars": {
+        "": null
+      }
+    },
+    "description": "Active mouse down callback that takes priority if the user is attempting\nto insert or delete a handle with ctrl + click.",
+    "params": [
+      {
+        "type": {
+          "names": [
+            "Object"
+          ]
+        },
+        "description": "The event.",
+        "name": "evt"
+      }
+    ],
+    "name": "preMouseDownCallback",
+    "longname": "preMouseDownCallback",
+    "kind": "function",
+    "scope": "global",
+    "$longname": "preMouseDownCallback",
+    "$kind": "method",
+    "$docmaLink": "?api=Annotation#preMouseDownCallback"
+  },
+  {
+    "comment": "/**\n * Some description\n *\n * @namespace Tools\n */",
+    "meta": {
+      "filename": "index.js",
+      "lineno": 1,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "description": "Some description",
+    "kind": "namespace",
+    "name": "Tools",
+    "longname": "Tools",
+    "scope": "global",
+    "$longname": "Tools",
+    "$kind": "namespace",
+    "$docmaLink": "?api=Annotation#Tools",
+    "$members": [
+      {
+        "comment": "/**\n * Tools that extend the {@link #Tools.Base.BaseAnnotationTool|`BaseAnnotationTool`}\n *\n * @namespace Tools.Annotation\n */",
+        "meta": {
+          "filename": "index.js",
+          "lineno": 7,
+          "columnno": 0,
+          "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+          "code": {}
+        },
+        "description": "Tools that extend the {@link #Tools.Base.BaseAnnotationTool|`BaseAnnotationTool`}",
+        "kind": "namespace",
+        "name": "Annotation",
+        "memberof": "Tools",
+        "longname": "Tools.Annotation",
+        "scope": "static",
+        "$longname": "Tools.Annotation",
+        "$kind": "namespace",
+        "$docmaLink": "?api=Annotation#Tools.Annotation",
+        "$members": [
+          {
+            "comment": "/**\n * @public\n * @class LengthTool\n * @memberof Tools.Annotation\n * @classdesc Tool for measuring distances.\n * @extends BaseAnnotationTool\n */",
+            "meta": {
+              "filename": "LengthTool.js",
+              "lineno": 18,
+              "columnno": 0,
+              "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+              "code": {}
+            },
+            "access": "public",
+            "kind": "class",
+            "name": "LengthTool",
+            "memberof": "Tools.Annotation",
+            "classdesc": "Tool for measuring distances.",
+            "augments": [
+              "BaseAnnotationTool"
+            ],
+            "scope": "static",
+            "longname": "Tools.Annotation.LengthTool",
+            "$longname": "Tools.Annotation.LengthTool",
+            "$kind": "class",
+            "$docmaLink": "?api=Annotation#Tools.Annotation.LengthTool"
+          },
+          {
+            "comment": "/**\n * @public\n * @class ProbeTool\n * @memberof Tools.Annotation\n * @classdesc Tool which provides a probe of the image data at the\n * desired position.\n * @extends BaseAnnotationTool\n */",
+            "meta": {
+              "filename": "ProbeTool.js",
+              "lineno": 15,
+              "columnno": 0,
+              "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+              "code": {}
+            },
+            "access": "public",
+            "kind": "class",
+            "name": "ProbeTool",
+            "memberof": "Tools.Annotation",
+            "classdesc": "Tool which provides a probe of the image data at the\ndesired position.",
+            "augments": [
+              "BaseAnnotationTool"
+            ],
+            "scope": "static",
+            "longname": "Tools.Annotation.ProbeTool",
+            "$longname": "Tools.Annotation.ProbeTool",
+            "$kind": "class",
+            "$docmaLink": "?api=Annotation#Tools.Annotation.ProbeTool"
+          },
+          {
+            "comment": "/**\n * @public\n * @class RectangleRoiTool\n * @memberof Tools.Annotation\n * @classdesc Tool for drawing rectangular regions of interest, and measuring\n * the statistics of the enclosed pixels.\n * @extends BaseAnnotationTool\n */",
+            "meta": {
+              "filename": "RectangleRoiTool.js",
+              "lineno": 20,
+              "columnno": 0,
+              "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+              "code": {}
+            },
+            "access": "public",
+            "kind": "class",
+            "name": "RectangleRoiTool",
+            "memberof": "Tools.Annotation",
+            "classdesc": "Tool for drawing rectangular regions of interest, and measuring\nthe statistics of the enclosed pixels.",
+            "augments": [
+              "BaseAnnotationTool"
+            ],
+            "scope": "static",
+            "longname": "Tools.Annotation.RectangleRoiTool",
+            "$longname": "Tools.Annotation.RectangleRoiTool",
+            "$kind": "class",
+            "$docmaLink": "?api=Annotation#Tools.Annotation.RectangleRoiTool"
+          },
+          {
+            "comment": "/**\n * @public\n * @class TextMarkerTool\n * @memberof Tools.Annotation\n *\n * @classdesc Tool for annotating an image with text markers.\n * @extends BaseAnnotationTool\n */",
+            "meta": {
+              "filename": "TextMarkerTool.js",
+              "lineno": 12,
+              "columnno": 0,
+              "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+              "code": {}
+            },
+            "access": "public",
+            "kind": "class",
+            "name": "TextMarkerTool",
+            "memberof": "Tools.Annotation",
+            "classdesc": "Tool for annotating an image with text markers.",
+            "augments": [
+              "BaseAnnotationTool"
+            ],
+            "scope": "static",
+            "longname": "Tools.Annotation.TextMarkerTool",
+            "$longname": "Tools.Annotation.TextMarkerTool",
+            "$kind": "class",
+            "$docmaLink": "?api=Annotation#Tools.Annotation.TextMarkerTool"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "comment": "/**\n * @public\n * @class AngleTool\n * @memberof Tools.Annotation\n *\n * @classdesc Create and position an angle by placing three consecutive points.\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "AngleTool.js",
+      "lineno": 28,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "AngleTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Create and position an angle by placing three consecutive points.",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.AngleTool",
+    "$longname": "Tools.Annotation.AngleTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.AngleTool"
+  },
+  {
+    "comment": "/**\n * @public\n * @class ArrowAnnotateTool\n * @memberof Tools.Annotation\n * @classdesc Create and position an arrow and label\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "ArrowAnnotateTool.js",
+      "lineno": 25,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "ArrowAnnotateTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Create and position an arrow and label",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.ArrowAnnotateTool",
+    "$longname": "Tools.Annotation.ArrowAnnotateTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.ArrowAnnotateTool"
+  },
+  {
+    "comment": "/**\n * @public\n * @class BidirectionalTool\n * @memberof Tools.Annotation\n * @classdesc Create and position an annotation that measures the\n * length and width of a region.\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "BidirectionalTool.js",
+      "lineno": 14,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "BidirectionalTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Create and position an annotation that measures the\nlength and width of a region.",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.BidirectionalTool",
+    "$longname": "Tools.Annotation.BidirectionalTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.BidirectionalTool"
+  },
+  {
+    "comment": "/**\n * @public\n * @class CobbAngleTool\n * @memberof Tools.Annotation\n * @classdesc Tool for measuring the angle between two straight lines.\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "CobbAngleTool.js",
+      "lineno": 29,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "CobbAngleTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Tool for measuring the angle between two straight lines.",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.CobbAngleTool",
+    "$longname": "Tools.Annotation.CobbAngleTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.CobbAngleTool"
+  },
+  {
+    "comment": "/**\n * @public\n * @class EllipticalRoiTool\n * @memberof Tools.Annotation\n * @classdesc Tool for drawing elliptical regions of interest, and measuring\n * the statistics of the enclosed pixels.\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "EllipticalRoiTool.js",
+      "lineno": 24,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "EllipticalRoiTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Tool for drawing elliptical regions of interest, and measuring\nthe statistics of the enclosed pixels.",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.EllipticalRoiTool",
+    "$longname": "Tools.Annotation.EllipticalRoiTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.EllipticalRoiTool"
+  },
+  {
+    "comment": "/**\n * @public\n * @class FreehandMouseTool\n * @memberof Tools.Annotation\n * @classdesc Tool for drawing arbitrary polygonal regions of interest, and\n * measuring the statistics of the enclosed pixels.\n * @extends BaseAnnotationTool\n */",
+    "meta": {
+      "filename": "FreehandMouseTool.js",
+      "lineno": 35,
+      "columnno": 0,
+      "path": "C:\\code\\CornerstonePlayground\\src\\cornerstoneTools\\src\\tools\\annotation",
+      "code": {}
+    },
+    "access": "public",
+    "kind": "class",
+    "name": "FreehandMouseTool",
+    "memberof": "Tools.Annotation",
+    "classdesc": "Tool for drawing arbitrary polygonal regions of interest, and\nmeasuring the statistics of the enclosed pixels.",
+    "augments": [
+      "BaseAnnotationTool"
+    ],
+    "scope": "static",
+    "longname": "Tools.Annotation.FreehandMouseTool",
+    "$longname": "Tools.Annotation.FreehandMouseTool",
+    "$kind": "class",
+    "$docmaLink": "?api=Annotation#Tools.Annotation.FreehandMouseTool"
+  }
+]
